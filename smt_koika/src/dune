@@ -1,0 +1,64 @@
+(dirs :standard _objects )
+
+(env
+ (dev
+  (flags (:standard -warn-error -A \ -short-paths))))
+
+(library
+  (name extracted)
+  (public_name koika-smt.extracted)
+  (preprocess (staged_pps ppx_import ppx_deriving.show ppx_sexp_conv))
+  (modules extracted)
+  (libraries core parsexp sexplib)
+)
+
+(library
+  (name eff_monad)
+  (public_name koika-smt.eff_monad)
+  (modules eff_monad))
+
+
+(library
+ (name syntax)
+ (public_name koika-smt.syntax)
+ (preprocess (staged_pps ppx_import ppx_deriving.show ppx_sexp_conv))
+ (modules syntax)
+ (libraries core extracted parsexp sexplib)
+)
+(library
+  (name file_switch)
+  (public_name koika-smt.file_switch)
+  (preprocess (staged_pps ppx_import ppx_deriving.show ppx_sexp_conv))
+  (modules file_switch)
+  (libraries core parsexp sexplib extracted syntax)
+)
+
+(library
+  (name koika_smt)
+  (public_name koika-smt.koika_smt)
+  (preprocess (staged_pps ppx_import ppx_deriving.show ppx_sexp_conv))
+  (modules koika_smt)
+  (libraries core eff_monad parsexp sexplib syntax z3 query)
+)
+
+(library
+ (name query)
+ (public_name koika-smt.query)
+ (modules query_parser query_lexer query_ast)
+ )
+
+(menhir
+  (modules query_parser)
+)
+(ocamllex query_lexer)
+
+(executable
+  (name main)
+  (public_name main)
+  (preprocess (staged_pps ppx_import ppx_deriving.show ppx_sexp_conv))
+  (modules main)
+  (libraries koika_smt cmdliner file_switch)
+)
+ 
+
+

@@ -1,0 +1,11 @@
+(lang dune 2.5)
+(using menhir 2.1)
+
+(generate_opam_files true)
+
+(name koika-smt)
+(version 0.0.1)
+
+(package
+  (name koika-smt)
+  (synopsis "Koika symbolic execution"))

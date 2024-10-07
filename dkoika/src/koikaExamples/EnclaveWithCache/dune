@@ -1,0 +1,12 @@
+(rule
+ (alias init_dirs)
+ (deps (universe))
+ (action (run mkdir -p ../../../out_EnclaveWithCache)))
+
+(coq.theory
+ (name koikaExamples.EnclaveWithCache)
+ (modules :standard)
+ (theories koika Koika rv_cache_isolation koikaExamples)
+)
+
+

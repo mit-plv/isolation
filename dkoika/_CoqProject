@@ -1,0 +1,8 @@
+-R _build/default/deps/koika/coq/ Koika
+-Q _build/default/deps/koika/tests/ tests
+-Q _build/default/deps/koika/examples/ examples
+-R _build/default/deps/koika/examples/rv rv
+-R _build/default/deps/koika/examples/rv_isolation rv_isolation
+-R _build/default/deps/koika/examples/rv_cache_isolation rv_cache_isolation
+-Q _build/default/src/koika koika
+-Q _build/default/src/koikaExamples koikaExamples
