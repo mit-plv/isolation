@@ -1,0 +1,31 @@
+    Time |  Peak Mem | File Name                                  
+------------------------------------------------------------------
+3m44.00s | 966560 ko | Total Time / Peak Mem                      
+------------------------------------------------------------------
+1m02.54s | 836512 ko | coq/examples/ResourceIsolation_ProofSim.vo 
+1m01.10s | 826128 ko | coq/examples/ResourceIsolation_ProofImpl.vo
+0m58.83s | 966560 ko | coq/StaticAnalysisCorrect.vo               
+0m23.91s | 597084 ko | coq/TypecheckingCorrectness.vo             
+0m05.70s | 526108 ko | coq/examples/ResourceIsolation_Proof.vo    
+0m04.65s | 453832 ko | coq/SemanticUtils.vo                       
+0m01.91s | 453840 ko | coq/Environments.vo                        
+0m01.12s | 446884 ko | coq/examples/ResourceIsolation_ProofSpec.vo
+0m00.61s | 431960 ko | coq/Utils.vo                               
+0m00.46s | 439536 ko | coq/Semantics.vo                           
+0m00.43s | 444452 ko | coq/examples/ResourceIsolation_Impl.vo     
+0m00.30s | 428620 ko | coq/Bits.vo                                
+0m00.30s | 439608 ko | coq/StaticAnalysis.vo                      
+0m00.22s | 437720 ko | coq/Typechecking.vo                        
+0m00.21s | 329524 ko | coq/examples/ResourceIsolation_Spec.vo     
+0m00.20s | 306808 ko | coq/Frontend.vo                            
+0m00.19s | 327608 ko | coq/Common.vo                              
+0m00.19s | 325012 ko | coq/Tactics.vo                             
+0m00.18s | 357316 ko | coq/EqDec.vo                               
+0m00.17s | 348012 ko | coq/examples/ResourceIsolation_Util.vo     
+0m00.16s | 300312 ko | coq/Std.vo                                 
+0m00.16s | 287552 ko | coq/SyntaxMacros.vo                        
+0m00.16s | 313444 ko | coq/examples/ResourceIsolation_Theorem.vo  
+0m00.15s | 300000 ko | coq/Parsing.vo                             
+0m00.14s | 225908 ko | coq/Syntax.vo                              
+0m00.02s |  75636 ko | coq/Magic.vo                               
+Total Time: 131.43 seconds

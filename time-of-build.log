@@ -1,0 +1,138 @@
+COQC coq/Magic.v
+coq/Magic.vo (real: 0.05, user: 0.03, sys: 0.00, mem: 75496 ko)
+COQC coq/EqDec.v
+coq/EqDec.vo (real: 0.24, user: 0.16, sys: 0.06, mem: 357020 ko)
+COQC coq/Common.v
+coq/Common.vo (real: 0.22, user: 0.17, sys: 0.05, mem: 327240 ko)
+COQC coq/Tactics.v
+File "./coq/Tactics.v", line 718, characters 4-12:
+Warning: Tactic elimtype is deprecated since 8.18. Use [elim] instead.
+[deprecated-tactic-since-8.18,deprecated-since-8.18,deprecated-tactic,deprecated,default]
+coq/Tactics.vo (real: 0.27, user: 0.18, sys: 0.08, mem: 324856 ko)
+COQC coq/Utils.v
+coq/Utils.vo (real: 0.69, user: 0.61, sys: 0.08, mem: 431488 ko)
+COQC coq/Bits.v
+coq/Bits.vo (real: 0.35, user: 0.27, sys: 0.07, mem: 428244 ko)
+COQC coq/Syntax.v
+coq/Syntax.vo (real: 0.15, user: 0.11, sys: 0.03, mem: 225692 ko)
+COQC coq/SyntaxMacros.v
+coq/SyntaxMacros.vo (real: 0.22, user: 0.16, sys: 0.06, mem: 287244 ko)
+COQC coq/Parsing.v
+coq/Parsing.vo (real: 0.21, user: 0.14, sys: 0.06, mem: 299568 ko)
+COQC coq/Environments.v
+File "./coq/Environments.v", line 533, characters 4-8:
+Warning: Cannot define graph(s) for zip_default''
+[funind-cannot-define-graph,funind,default]
+File "./coq/Environments.v", line 533, characters 4-8:
+Warning: Cannot build inversion information
+[funind-cannot-build-inversion,funind,default]
+coq/Environments.vo (real: 1.81, user: 1.75, sys: 0.05, mem: 455440 ko)
+COQC coq/Typechecking.v
+COQC coq/Magic.v
+coq/Magic.vo (real: 0.04, user: 0.02, sys: 0.02, mem: 75636 ko)
+COQC coq/EqDec.v
+coq/EqDec.vo (real: 0.24, user: 0.18, sys: 0.05, mem: 357316 ko)
+COQC coq/Common.v
+coq/Common.vo (real: 0.23, user: 0.19, sys: 0.04, mem: 327608 ko)
+COQC coq/Tactics.v
+File "./coq/Tactics.v", line 718, characters 4-12:
+Warning: Tactic elimtype is deprecated since 8.18. Use [elim] instead.
+[deprecated-tactic-since-8.18,deprecated-since-8.18,deprecated-tactic,deprecated,default]
+coq/Tactics.vo (real: 0.25, user: 0.19, sys: 0.05, mem: 325012 ko)
+COQC coq/Utils.v
+coq/Utils.vo (real: 0.69, user: 0.61, sys: 0.07, mem: 431960 ko)
+COQC coq/Bits.v
+coq/Bits.vo (real: 0.36, user: 0.30, sys: 0.05, mem: 428620 ko)
+COQC coq/Syntax.v
+coq/Syntax.vo (real: 0.17, user: 0.14, sys: 0.03, mem: 225908 ko)
+COQC coq/SyntaxMacros.v
+coq/SyntaxMacros.vo (real: 0.20, user: 0.16, sys: 0.04, mem: 287552 ko)
+COQC coq/Parsing.v
+coq/Parsing.vo (real: 0.22, user: 0.15, sys: 0.06, mem: 300000 ko)
+COQC coq/Environments.v
+File "./coq/Environments.v", line 533, characters 4-8:
+Warning: Cannot define graph(s) for zip_default''
+[funind-cannot-define-graph,funind,default]
+File "./coq/Environments.v", line 533, characters 4-8:
+Warning: Cannot build inversion information
+[funind-cannot-build-inversion,funind,default]
+coq/Environments.vo (real: 1.99, user: 1.91, sys: 0.07, mem: 453840 ko)
+COQC coq/Typechecking.v
+coq/Typechecking.vo (real: 0.31, user: 0.22, sys: 0.08, mem: 437720 ko)
+COQC coq/Semantics.v
+File "./coq/Semantics.v", line 60, characters 16-19:
+Warning: Unused variable CGe might be a misspelled constructor. Use _ or _CGe
+to silence this warning. [unused-pattern-matching-variable,default]
+coq/Semantics.vo (real: 0.53, user: 0.46, sys: 0.06, mem: 439536 ko)
+COQC coq/Std.v
+coq/Std.vo (real: 0.23, user: 0.16, sys: 0.06, mem: 300312 ko)
+COQC coq/SemanticUtils.v
+coq/SemanticUtils.vo (real: 4.72, user: 4.65, sys: 0.06, mem: 453832 ko)
+COQC coq/StaticAnalysis.v
+coq/StaticAnalysis.vo (real: 0.37, user: 0.30, sys: 0.06, mem: 439608 ko)
+COQC coq/TypecheckingCorrectness.v
+File "./coq/TypecheckingCorrectness.v", line 2388, characters 4-44:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2389, characters 4-43:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2390, characters 4-45:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2391, characters 4-42:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2392, characters 4-40:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2394, characters 4-44:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2395, characters 4-41:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2396, characters 4-43:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2397, characters 4-43:
+Warning: Declaring arbitrary terms as hints is fragile; it is recommended to
+declare a toplevel constant instead [fragile-hint-constr,automation,default]
+File "./coq/TypecheckingCorrectness.v", line 2703, characters 0-26:
+Warning: Use of “Require” inside a section is fragile. It is not recommended
+to use this functionality in finished proof scripts.
+[require-in-section,fragile,default]
+coq/TypecheckingCorrectness.vo (real: 24.08, user: 23.91, sys: 0.12, mem: 597084 ko)
+COQC coq/StaticAnalysisCorrect.v
+coq/StaticAnalysisCorrect.vo (real: 59.07, user: 58.83, sys: 0.13, mem: 966560 ko)
+COQC coq/Frontend.v
+coq/Frontend.vo (real: 0.25, user: 0.20, sys: 0.04, mem: 306808 ko)
+COQC coq/examples/ResourceIsolation_Util.v
+coq/examples/ResourceIsolation_Util.vo (real: 0.26, user: 0.17, sys: 0.08, mem: 348012 ko)
+COQC coq/examples/ResourceIsolation_Impl.v
+coq/examples/ResourceIsolation_Impl.vo (real: 0.54, user: 0.43, sys: 0.10, mem: 444452 ko)
+COQC coq/examples/ResourceIsolation_Spec.v
+coq/examples/ResourceIsolation_Spec.vo (real: 0.26, user: 0.21, sys: 0.04, mem: 329524 ko)
+COQC coq/examples/ResourceIsolation_Theorem.v
+coq/examples/ResourceIsolation_Theorem.vo (real: 0.23, user: 0.16, sys: 0.06, mem: 313444 ko)
+COQC coq/examples/ResourceIsolation_ProofImpl.v
+coq/examples/ResourceIsolation_ProofImpl.vo (real: 61.30, user: 61.10, sys: 0.09, mem: 826128 ko)
+COQC coq/examples/ResourceIsolation_ProofSpec.v
+coq/examples/ResourceIsolation_ProofSpec.vo (real: 1.21, user: 1.12, sys: 0.08, mem: 446884 ko)
+COQC coq/examples/ResourceIsolation_ProofSim.v
+File "./coq/examples/ResourceIsolation_ProofSim.v", line 1251, characters 0-224:
+Warning: Declaring a scope implicitly is deprecated; use in advance an
+explicit "Declare Scope wp_notations.".
+[undeclared-scope,deprecated-since-8.10,deprecated,default]
+coq/examples/ResourceIsolation_ProofSim.vo (real: 62.78, user: 62.54, sys: 0.12, mem: 836512 ko)
+COQC coq/examples/ResourceIsolation_Proof.v
+Axioms:
+FunctionalExtensionality.functional_extensionality_dep
+  : forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+    (forall x : A, f x = g x) -> f = g
+coq/examples/ResourceIsolation_Proof.vo (real: 5.80, user: 5.70, sys: 0.08, mem: 526108 ko)
+make[3]: Nothing to be done for 'real-all'.
+make[3]: Nothing to be done for 'real-all'.
+make[3]: Nothing to be done for 'real-all'.
+make[3]: Nothing to be done for 'real-all'.
+make[3]: Nothing to be done for 'real-all'.
