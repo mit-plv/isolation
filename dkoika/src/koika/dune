@@ -1,0 +1,4 @@
+(coq.theory
+ (package koika)
+ (name koika)
+ (modules :standard))

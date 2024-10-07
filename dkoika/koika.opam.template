@@ -1,0 +1,21 @@
+# <-- begin koika.opam.template
+build: [
+  ["dune" "subst"] {pinned}
+  [make "dune-all"]
+  [make "coq-check" "examples" "tests"] {with-test}
+  # ["dune" "build" "-p" name "@doc"] {with-doc}
+]
+depends: [
+  ("coq" {>= "8.18"} 
+  "base" {>= "0.16.0"}
+  "core" {>= "0.16.0"}
+  "core_unix" {>= "0.16.0"}
+  "dune" {build & >= "3.12"}
+  "hashcons" {>= "1.3"}
+  "parsexp" {>= "0.16.0"}
+  "ppx_jane" {>= "0.16.0"}
+  "stdio" {>= "0.12.0"}
+  "zarith" {>= "1.13"}
+  "z3" {>= "4.12"})
+]
+# end koika.opam.template -->

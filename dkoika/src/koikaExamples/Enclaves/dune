@@ -1,0 +1,10 @@
+(rule
+ (alias init_dirs)
+ (deps (universe))
+ (action (run mkdir -p ../../../out_Enclaves)))
+
+(coq.theory
+ (name koikaExamples.Enclaves)
+ (modules :standard)
+ (theories koika Koika rv_isolation koikaExamples)
+)
